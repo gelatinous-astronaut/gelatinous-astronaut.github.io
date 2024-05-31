@@ -71,13 +71,11 @@ document.addEventListener('DOMContentLoaded', () => {
         caption.textContent = captions[images[currentIndex]] || 'No caption available';
     });
 
-    // Navigate to the previous image
     prev.addEventListener('click', () => {
         currentIndex = (currentIndex === 0) ? images.length - 1 : currentIndex - 1;
         modalImg.src = images[currentIndex];
     });
 
-    // Navigate to the next image
     next.addEventListener('click', () => {
         currentIndex = (currentIndex === images.length - 1) ? 0 : currentIndex + 1;
         modalImg.src = images[currentIndex];
