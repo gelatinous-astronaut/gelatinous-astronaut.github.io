@@ -1,18 +1,31 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    const imageFiles = ["01_galaxy.png", "02_spacenoise.png", "03_spacenoise.png",
-        "04_diffractedsphere.png","05_stereographic.jpg",
-        "06_stereographic2.png","07_infraredtemple.png","08_temple.png",
-        "09_imagination.png","10_fractured_boundaries.png","11_symbol.png",
-        "12_persistence_of_vision.png","13_dreams_of_industry.png","14_tangled-in-the-frame.png",
-        "15_glitch-poem-1_small.png","15_glitch-poem-2_small.png","16_glitch-poem-3_small.png",
-        "17_glitch-poem-4_small.png","18_glitch-poem-5_small.png","19_glitch-poem-6.2_small.png",
-        "20_fragments_of_bone.png","21_no_object.png","22_sandpile.png",
-        "23_glitch.png","24_orbital_trajectory.png","25_escape.png"
-    ];
-    
-    const parentFolder = 'assets/images/art/';
-    const images = imageFiles.map(filename => parentFolder + filename);
+    const images = ["https://live.staticflickr.com/65535/53829328334_9a3c48db37_o.png",
+        "https://live.staticflickr.com/65535/53829328149_854f5a97d1_o.png",
+        "https://live.staticflickr.com/65535/53829328269_c874576eee_o.png",
+        "https://live.staticflickr.com/65535/53828996271_ac27255f46_o.png",
+        "https://live.staticflickr.com/65535/53829433545_2946023133_o.png",
+        "https://live.staticflickr.com/65535/53829237578_849aa100a1_o.png",
+        "https://live.staticflickr.com/65535/53829237373_0b95a427b3_o.png",
+        "https://live.staticflickr.com/65535/53829327894_ebdaf05d6a_o.png",
+        "https://live.staticflickr.com/65535/53828083217_11588a0308_o.png",
+        "https://live.staticflickr.com/65535/53829433275_9e15325b17_o.png",
+        "https://live.staticflickr.com/65535/53828995691_bb23892909_o.png",
+        "https://live.staticflickr.com/65535/53829327669_b0cf469ccb_o.png",
+        "https://live.staticflickr.com/65535/53828995581_a9ec9ca8fb_o.png",
+        "https://live.staticflickr.com/65535/53829236948_048643b238_o.png",
+        "https://live.staticflickr.com/65535/53829432980_dc7055c5ed_o.png",
+        "https://live.staticflickr.com/65535/53829236848_b027372e10_o.png",
+        "https://live.staticflickr.com/65535/53829328129_4da68027f0_o.png",
+        "https://live.staticflickr.com/65535/53829432695_3f4f0b1db6_o.png",
+        "https://live.staticflickr.com/65535/53829432685_cc8cf5e3fb_o.png",
+        "https://live.staticflickr.com/65535/53829236728_5436fedfdb_o.png",
+        "https://live.staticflickr.com/65535/53829432845_c0ffaa88f5_o.png",
+        "https://live.staticflickr.com/65535/53829236793_a3512e287b_o.png",
+        "https://live.staticflickr.com/65535/53829327594_21abcb16d2_o.png",
+        "https://live.staticflickr.com/65535/53829327664_7914751f3d_o.png",
+        "https://live.staticflickr.com/65535/53828995696_089387ed1c_o.png",
+        "https://live.staticflickr.com/65535/53828996081_84424937c2_o.jpg"]
 
     let captions = {};
     fetch('captions.json')

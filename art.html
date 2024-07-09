@@ -6,40 +6,43 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gelatinous Astronaut</title>
     <link rel="stylesheet" href="style.css">
-    <script src="assets/scripts/randombg.js" defer></script>
+    <!-- <script src="assets/scripts/randombg.js" defer></script> -->
     <script src="assets/scripts/hover.js" defer></script>
+  
 </head>
 
-<body>
+<body style="background-color: rgb(30, 30, 30); color: white;">
   <div id="main">
   	<br>
-  	<div class="content-section-wide">
-  	<a href="index.html"><img src="assets/images/buttons/gelatinous.gif" class="header-image"></a>
-    <a href="index.html"><img src="assets/images/buttons/astronaut.gif" class="header-image"></a>
-
-    <h2>This is the personal and highly professional website of Dr. Ethan D. Jahn</h2>
+    <div class="content-center" style="margin: 20px">
+      <span><a href="index.html"><img src="assets/images/buttons/gelatinous.gif" class="header-image" style="max-width: 600px; height: auto; margin-right: 2em; margin-left: 2em"><img src="assets/images/buttons/astronaut.gif" class="header-image" style="max-width: 600px; height: auto; "> </a></span>
+      <span class="heading-text" style="background-color: transparent;" > 
+        This is the personal and highly professional website of Dr. Ethan Jahn
+      </span>
     </div>
 
-    <div class="content-section-wide">
-        <div class="thin-paragraph">
-    	    <h2 id="working">My Digital Art</h2>
-    	    <p>I took some graphic design classes in high school and have been making digital art ever since then! In particular, I'm really interested in three main modes of creation:</p>
+    <div style="padding: 60px; max-width:1000px">
+      <h2 id="working">My Digital Art</h2>
+      <p>I took some graphic design classes in high school and have been making digital art ever since then! In particular, I'm really interested in three main modes of creation:</p>
 
-            <p><b>Collage</b> - using found and lost media dredged from internet archives, I explore the emergent properties that are formed from the interactions between divergent media and themes. The combination of modern digital processing with media from a bygone era creates new forms and new expressions. </p>
+      <p><b>Collage</b> - using found and lost media dredged from internet archives, I explore the emergent properties that are formed from the interactions between divergent media and themes. The combination of modern digital processing with media from a bygone era creates new forms and new expressions. </p>
 
-            <p><b>Research &amp; Data</b> - data visualization in its most basic form, or highly processed images derived from data used for research. send me your numbers!</p>
+      <p><b>Research &amp; Data</b> - data visualization in its most basic form, or highly processed images derived from data used for research. send me your numbers! you can find some animated visualizations on my <a href="simulations.html">Space Simulations Research</a> page </p>
 
-            <p><b>Generative</b> - a form that I intend to explore more of, simple rules can generate new images that are interesting in and of themselves, or can be used as ingredients for further processing </p>
-        </div>
+      <p><b>Generative</b> - a form that I intend to explore more of, simple rules can generate new images that are interesting in and of themselves, or can be used as ingredients for further processing </p>
+
+      <h2>Collage Art Workshop</h2>
+      <p>I gave a workshop on digital collage art at the UCR Artistic Expression of Original Research retreat in Winter 2024</p>
+      <p>View the slides here! <a href="https://docs.google.com/presentation/d/1v6g_mjr3enAydSbxsQmOIydzqa34FWKXTI3uywy30iM/edit?usp=sharing">google slides</a></p>
     </div>
 
-    <div class="content-section-wide-dark">
+    <div class="content-section content-center" style="background-color:rgb(30, 30, 30); max-width:none; width:90%; margin:10px">
         <div class="gallery">
         </div>
     </div>
 
     <!-- Modal for full-size image view -->
-    <div id="modal" class="modal">
+    <div id="modal" class="modal" style="background-color:rgba(20, 20, 20,0.7);">
         <span class="close">&times;</span>
         <div class="modal-content-container">
             <img class="modal-content" id="modal-img">
@@ -52,34 +55,23 @@
 
   </div>
 
-  <div class="content-section">
-    <div class="button-grid-footer">
-      <a href="mailto:gelatinous.astronaut@gmail.com"><div class="randomColorButton">
-          <img src="assets/images/buttons/E-MAIL-ME.gif" width="160px">
-      </div></a>
-      <a href="https://www.instagram.com/xthnj.wav/"><div class="randomColorButton">
-          <img src="assets/images/buttons/instagram-shiny.gif" width="160px">
-      </div></a>
-      <a href="https://github.com/gelatinous-astronaut/"><div class="randomColorButton">
-          <img src="assets/images/buttons/github.gif" width="100px">
-      </div></a>
-    </div>      
+  <div class="content-center">
+  <img src="assets/images/misc/G-animatedufo.gif" width=600px>
+  <img src="https://i.imgur.com/i6hvJjx.gif">
+   <!-- <span><img src="https://i.imgur.com/QkBkUkC.gif"></span> -->
   </div>
 
-  <footer id="footer">
-    <div class="content-section content-center">
-        <img src="assets/images/misc/G-animatedufo.gif" width=600px>
-        <img src="https://i.imgur.com/i6hvJjx.gif">
-        <p></p>
-        <span><img src="https://i.imgur.com/QkBkUkC.gif"></span>
-    </div>
-    <div>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-  </footer>
+  <div class="content-section content-center button-grid-footer" style="background-color: transparent;"> 
+  <a href="mailto:ejahn@arizona.edu"><div class="randomColorButton">
+        <img src="assets/images/buttons/E-MAIL-ME.gif" width="160px">
+    </div></a>
+    <a href="https://www.instagram.com/xthnj.wav/"><div class="randomColorButton">
+        <img src="assets/images/buttons/instagram-shiny.gif" width="160px">
+    </div></a>
+    <a href="https://github.com/gelatinous-astronaut/"><div class="randomColorButton">
+        <img src="assets/images/buttons/github.gif" width="100px">
+    </div></a>
+  </div>
 </body>
 
 </html>
