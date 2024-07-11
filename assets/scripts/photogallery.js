@@ -106,9 +106,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "https://live.staticflickr.com/65535/53829067326_ec301d69ca_o.jpg",
         "https://live.staticflickr.com/65535/53829398504_02a04263a3_o.jpg",
         "https://live.staticflickr.com/65535/53829308363_10e61b6f29_o.jpg",
-        "https://live.staticflickr.com/65535/53829398514_f34063566d_o.jpg",
-        "https://live.staticflickr.com/65535/53829308413_1296510b7b_o.jpg",
-        "https://live.staticflickr.com/65535/53829067341_99dd4a2ac6_o.jpg"]
+        "https://live.staticflickr.com/65535/53829398514_f34063566d_o.jpg"]
+        // "https://live.staticflickr.com/65535/53829308413_1296510b7b_o.jpg",
+        // "https://live.staticflickr.com/65535/53829067341_99dd4a2ac6_o.jpg"]
 
     let captions = {};
     fetch('captions.json')

@@ -191,7 +191,7 @@ a:hover {
 
 .thumbnail {
     width: auto;
-    height: 300px;
+    height: 400px;
     object-fit: cover;
     cursor: pointer;
     transition: transform 0.2s;
